@@ -1,14 +1,12 @@
 {
-  "name": "bit",
-  "description": "Bot de Telegram en PHP",
   "require": {
-    "php": "^8.0",
+    "php": "^8.1",
     "ext-curl": "*",
     "ext-json": "*"
   },
   "config": {
     "platform": {
-      "php": "8.0"
+      "php": "8.1"
     }
   }
 }
