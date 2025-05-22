@@ -133,13 +133,13 @@ $brand = strtoupper($binInfo['scheme'] ?? '');
 $type = strtoupper($binInfo['type'] ?? '');
 $bank = isset($binInfo['bank']['name']) ? strtoupper($binInfo['bank']['name']) : '';
 
-$response .= "<b>╚═════════════════╝\n•├𝑩𝒂𝒏𝒌 » <code>$bank</code></b>\n";
+$response .= "<b>━━━━━━━━━━━━━\n•├𝑩𝒂𝒏𝒌 » <code>$bank</code></b>\n";
 $response .= "<b>•├𝑩𝒓𝒂𝒏𝒅 » <code>$brand</code></b>\n";
 $response .= "<b>•├𝑻𝒚𝒑𝒆 » <code>$type</code></b>\n";
 $response .= "<b>•├𝑪𝒐𝒖𝒏𝒕𝒓𝒚 » <code>$name</code></b>\n";
 
 // Append a custom footer to the response
-$response .= "<b>\n•├Dev » <code>@iam_daxx</code></b>";
+$response .= "<b>\n•├Dev » <code>@titanfury</code></b>";
 
     return $response;
 }
