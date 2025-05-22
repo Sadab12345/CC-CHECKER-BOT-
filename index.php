@@ -79,7 +79,7 @@ $callbackmessage = $update->callback_query->message->text;
 $callbackid = $update->callback_query->id;
 
 $text = $update->message->text;
-$owner = '<code>6699273462</code>';
+$owner = '<code>6602787316</code>';
 
 
 
