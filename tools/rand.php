@@ -116,7 +116,7 @@ if (preg_match('/^(\/fake|\.fake|!fake)/', $text)) {
     $ssn="null";
     }
     $respo = urlencode("<b>Fake Address Generator 📝
- ╔═════════════════╗
+ ━━━━━━━━━━━━━
 🗺️ Country» <code>$con</code>
 
 🛣️ Street » <code>$street</code>
@@ -128,9 +128,9 @@ if (preg_match('/^(\/fake|\.fake|!fake)/', $text)) {
 📮 Zip Code » <code>$zip</code>
 
 ☎️ Telephone » <code>$phone</code>
-╚═════════════════╝
+━━━━━━━━━━━━━
 •├Req » @$username <code>[$rank]</code>
-•├Dev » <code>@iam_daxx</code>    
+•├Dev » <code>@Titanfury</code>    
 </b>");
     sendMessage($chatId,$respo,$message_id);}
 ?>
